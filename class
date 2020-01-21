@@ -1,0 +1,32 @@
+using System;
+
+namespace MyApplication
+{
+    public class Alpha
+    {
+      public static int randNum;
+        public Alpha()
+        {
+            Random rand = new Random();
+            randNum = rand.Next(1, 100);
+        }
+    }
+    public class Beta : Program 
+    {
+        public static void Rend()
+        {
+        for (int j = th - 1; j > 0; j--)
+        {
+            for (int k = 0; k < j; k++)
+            {
+               if (tomb[k] > tomb[k + 1])
+               {
+                        int s = tomb[k + 1];
+                        tomb[k + 1] = tomb[k];
+                        tomb[k] = s;
+               }
+            }
+        }
+        }
+    }
+}
